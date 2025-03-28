@@ -11,24 +11,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
-
-    - name: Install Nix
-      uses: cachix/install-nix-action@v22
-
-    - name: Install devenv
-      uses: cachix/cachix-action@v12
+    - uses: actions/checkout@v4
+    - uses: cachix/install-nix-action@v26
+    - uses: cachix/cachix-action@v14
       with:
         name: devenv
-
-    - name: Install dependencies
-      run: nix-shell --run "devenv shell" < /dev/null
-
+    - name: Install devenv.sh
+      run: nix profile install nixpkgs#devenv
     - name: Build PDF
+      shell: devenv shell bash -- -e {0}
       run: |
-        nix-shell --run "devenv shell" <<EOF
-        just build
-        EOF
+        just compile
 
     - name: Upload PDF artifact
       uses: actions/upload-artifact@v4
