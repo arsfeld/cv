@@ -39,28 +39,17 @@
 ]
 
 #resume-entry(
-  title: "Devops Team Lead",
+  title: "Programming & DevOps Team Lead",
   location: "Montreal, Canada",
-  date: "July 2023 - November 2024",
-  description: "Ubisoft (Rainbow Six Mobile)",
+  date: "November 2020 - December 2024",
+  description: "Ubisoft (Rainbow Six Mobile & Online Services)",
 )
 
 #resume-item[
   - Established and led a new DevOps team to centralize and improve deployment processes
   - Implemented comprehensive observability and streamlined deployment pipelines using #strong("ArgoCD")
-]
-
-
-#resume-entry(
-  title: "Programming Team Lead",
-  location: "Montreal, Canada",
-  date: "November 2020 - June 2023",
-  description: "Ubisoft (Online Services)",
-)
-
-#resume-item[
-  - Led the successful migration from #strong("Node.js") to #strong(".NEt") for improved performance
-  - Orchestrated the transition to cloud-native architecture while managing Stats and Leaderboards systems
+  - Led the successful migration from #strong("Node.js") to #strong(".NET") for improved performance
+  - Orchestrated the transition of #strong("Kafka")-based systemd to cloud-native architecture while managing Stats and Leaderboards systems
 ]
 
 #resume-entry(
@@ -83,8 +72,7 @@
 )
 
 #resume-item[
-  - Developed an in-store mobile payment solution using #strong("Kotlin")/#strong("Android")
-  - Optimized e-commerce platform performance
+  - Developed an in-store mobile payment solution using #strong("Kotlin")/#strong("Android") and optimized e-commerce platform performance
 ]
 
 #resume-entry(
