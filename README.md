@@ -1,51 +1,55 @@
-# Modern CV Template in Typst
+# My CV Project 🚀
 
-This is a modern, clean CV template built using Typst. The template features a professional layout with sections for personal information, experience, education, skills, and projects.
+Welcome to my CV project! This repository contains everything needed to build and maintain my professional resume and cover letter in a clean, automated way. Here's a quick overview of what's inside:
 
-## Features
+## 📂 Project Structure
 
-- Clean and modern design
-- Responsive layout
-- Easy to customize
-- Sections for:
-  - Personal information
-  - Professional summary
-  - Work experience
-  - Education
-  - Skills
-  - Projects
+- **`resume.typ`**:  
+  This is the main file for my resume. Written in Typst, it includes all my professional experience, education, and skills.  
+  👉 Run `just compile` to generate the PDF!
 
-## Prerequisites
+- **`coverletter2.typ`**:  
+  A customizable cover letter template. It uses Typst to generate a professional-looking letter tailored to specific job applications.
 
-- Typst installed on your system
-- Internet connection (for downloading fonts and packages)
+- **`.github/workflows/build-pdf.yml`**:  
+  GitHub Actions workflow to automatically build and release the resume PDF whenever changes are pushed to the `main` branch.  
+  💡 It even uploads the PDF as an artifact and creates a release!
 
-## Usage
+- **`justfile`**:  
+  Contains a simple command to compile the Typst files into PDFs.  
+  ```bash
+  just compile
+  ```
 
-1. Edit the `cv.typ` file
-2. Replace the example content in the `main()` function call with your information
-3. Compile the document using Typst:
+- **`.gitignore`**:  
+  Keeps the repo clean by ignoring unnecessary files like PDFs, temporary files, and editor-specific files.
+
+## 🛠️ How to Use
+
+1. **Set up the environment**:  
+   Make sure you have Nix and Devenv installed. Use `devenv shell` to access all dependencies.
+
+2. **Compile the resume**:  
+   Run the following command to generate the PDF:  
    ```bash
-   typst compile cv.typ
+   just compile
    ```
 
-## Customization
+3. **Automated builds**:  
+   Push your changes to the `main` branch, and GitHub Actions will automatically build and release the updated resume PDF.
 
-The template is highly customizable. You can modify:
+## 🌟 Features
 
-- Font sizes and styles
-- Colors and spacing
-- Section layouts
-- Add or remove sections
+- **Modern CV Design**:  
+  Using the `@preview/modern-cv` Typst package for a sleek and professional look.
 
-## Structure
+- **Multi-language Support**:  
+  The resume and cover letter can be easily adapted to different languages.
 
-The template uses a function-based approach where all content is passed as parameters to the `main()` function. This makes it easy to maintain and update your CV.
+- **Automated CI/CD**:  
+  GitHub Actions ensures the latest version of the resume is always available.
 
-## Example
+## 📜 License
 
-The template includes an example CV for John Doe. You can use this as a reference for formatting your own information.
-
-## License
-
-Feel free to use this template for your own CV. Attribution is appreciated but not required. 
+Feel free to use this project as inspiration for your own CV!  
+Happy job hunting! 🎉
