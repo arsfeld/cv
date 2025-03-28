@@ -1,9 +1,28 @@
-# Devenv
+# Typst output
+*.pdf
+
+# Nix
+result
+result-*
+
+# devenv
 .devenv*
 devenv.local.nix
 
-# direnv
-.direnv
+# Editor-specific files
+.vscode/
+.idea/
+*.swp
+*~
 
-# pre-commit
-.pre-commit-config.yaml
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Node.js (if you're using any Node.js tools)
+node_modules/
