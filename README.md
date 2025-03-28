@@ -1,5 +1,12 @@
 # My CV Project 🚀
 
+[![Build PDF](https://github.com/arsfeld/cv/actions/workflows/build-pdf.yml/badge.svg)](https://github.com/arsfeld/cv/actions/workflows/build-pdf.yml)
+![Typst Version](https://img.shields.io/badge/Typst-0.8.0-blue)  
+![License](https://img.shields.io/badge/License-MIT-green)  
+![Last Updated](https://img.shields.io/github/last-commit/arsfeld/cv)  
+![Code Size](https://img.shields.io/github/languages/code-size/arsfeld/cv)  
+![Repo Stars](https://img.shields.io/github/stars/arsfeld/cv?style=social)
+
 Welcome to my CV project! This repository contains everything needed to build and maintain my professional resume and cover letter in a clean, automated way. Here's a quick overview of what's inside:
 
 ## 📂 Project Structure
