@@ -28,3 +28,17 @@ jobs:
       with:
         name: resume
         path: resume.pdf
+
+    - name: Create Release
+      if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+      uses: softprops/action-gh-release@v1
+      with:
+        files: resume.pdf
+        tag_name: ${{ github.sha }}
+        name: Release ${{ github.sha }}
+        body: |
+          Automated release for commit ${{ github.sha }}
+
+          [View the full commit](https://github.com/${{ github.repository }}/commit/${{ github.sha }})
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
