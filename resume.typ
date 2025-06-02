@@ -4,9 +4,9 @@
   author: (
     firstname: "Alexandre",
     lastname: "Rosenfeld",
-    email: "your-email@example.com",
+    email: sys.inputs.at("EMAIL", default: "your-email@example.com"),
     homepage: "https://arsfeld.dev",
-    phone: "+1 (XXX) XXX-XXXX",
+    phone: sys.inputs.at("PHONE", default: "+1 (XXX) XXX-XXXX"),
     github: "arsfeld",
     linkedin: "a-rosenfeld",
     address: "Montreal, Canada",
