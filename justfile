@@ -1,2 +1,3 @@
 compile:
-    typst compile --font-path $XDG_DATA_DIRS --input EMAIL="$EMAIL" --input PHONE="$PHONE" resume.typ
+    envsubst < metadata.toml.template > metadata.toml
+    typst compile cv.typ resume.pdf

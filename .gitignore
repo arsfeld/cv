@@ -1,6 +1,9 @@
 # Typst output
 *.pdf
 
+# Generated from template (contains secrets)
+metadata.toml
+
 # Nix
 result
 result-*
