@@ -1,0 +1,48 @@
+#:schema https://raw.githubusercontent.com/yunanwg/brilliant-CV/main/metadata.toml.schema.json
+
+language = "en"
+
+[layout]
+    awesome_color = "darknight"
+    before_section_skip = "1pt"
+    before_entry_skip = "1pt"
+    before_entry_description_skip = "1pt"
+    paper_size = "us-letter"
+
+    [layout.fonts]
+        regular_fonts = ["Source Sans Pro", "Source Sans 3"]
+        header_font = "Roboto"
+
+    [layout.header]
+        header_align = "left"
+        display_profile_photo = false
+        info_font_size = "10pt"
+
+    [layout.entry]
+        display_entry_society_first = true
+        display_logo = false
+
+    [layout.footer]
+        display_page_counter = false
+        display_footer = false
+
+[inject]
+    inject_ai_prompt = false
+    inject_keywords = true
+    injected_keywords_list = ["Software Architect", "Kubernetes", ".NET", "Python", "DevOps", "Team Lead"]
+
+[personal]
+    first_name = "Alexandre"
+    last_name = "Rosenfeld"
+
+    [personal.info]
+        github = "arsfeld"
+        email = "${EMAIL}"
+        phone = "${PHONE}"
+        linkedin = "a-rosenfeld"
+        homepage = "arsfeld.dev"
+
+[lang.en]
+    header_quote = "Software Architect and Engineering Leader with 12+ years building scalable systems and leading teams"
+    cv_footer = "Curriculum vitae"
+    letter_footer = "Cover letter"

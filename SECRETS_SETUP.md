@@ -33,6 +33,10 @@ For local development, you can either:
    just compile
    ```
 
+## How It Works
+
+The build process uses `envsubst` to generate `metadata.toml` from `metadata.toml.template`, replacing `${EMAIL}` and `${PHONE}` placeholders with the environment variables.
+
 ## Security Benefits
 
 - ✅ Your personal information is not stored in the repository
@@ -40,8 +44,9 @@ For local development, you can either:
 - ✅ Contributors can't see your personal information
 - ✅ You can still generate PDFs locally and in CI/CD
 
-## Files Modified
+## Files
 
-- `resume.typ`: Uses `sys.inputs.at()` to read environment variables
+- `metadata.toml.template`: Template with `${EMAIL}` and `${PHONE}` placeholders
+- `metadata.toml`: Generated file (gitignored, contains your actual info)
 - `.github/workflows/build-pdf.yml`: Passes secrets as environment variables
-- `justfile`: Includes `--input` parameters for Typst compilation
+- `justfile`: Uses envsubst to generate metadata.toml before compiling

@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a CV/resume project using Typst (a modern typesetting system) with the `@preview/modern-cv` package. The project uses Nix/devenv for reproducible development environments.
+This is a CV/resume project using Typst (a modern typesetting system) with the `@preview/brilliant-cv` package. The project uses Nix/devenv for reproducible development environments.
 
 ## Build Commands
 
@@ -18,11 +18,12 @@ Compile the resume to PDF:
 just compile
 ```
 
-The compile command requires `EMAIL` and `PHONE` environment variables for personal contact info (these are injected via Typst's `--input` flag).
-
 ## Project Structure
 
-- `resume.typ` - Main resume file using modern-cv Typst package
+- `cv.typ` - Main CV file that imports modules
+- `metadata.toml` - Configuration (personal info, colors, layout settings)
+- `modules_en/` - Content modules (professional.typ, education.typ, skills.typ)
+- `src/` - Assets (logos, avatar, etc.)
 - `coverletter.typ`, `coverletter2.typ` - Cover letter templates
 - `devenv.nix` - Nix development environment (provides typst, just, and fonts)
 - `justfile` - Build automation commands
@@ -30,11 +31,11 @@ The compile command requires `EMAIL` and `PHONE` environment variables for perso
 
 ## Typst Notes
 
-- The project uses Typst v0.8.0+ with the `@preview/modern-cv:0.8.0` package
-- Fonts are provided via Nix: Font Awesome 5/6, Roboto, Source Sans Pro
-- Font path is set via `$XDG_DATA_DIRS` in the compile command
-- Sensitive info (email, phone) is passed as Typst inputs, not hardcoded
+- The project uses Typst with the `@preview/brilliant-cv:2.0.8` package
+- Fonts are provided via Nix: Font Awesome, Roboto, Source Sans Pro
+- Font paths are configured via `TYPST_FONT_PATHS` env var in devenv.nix
+- Personal info (email, phone, etc.) is configured in `metadata.toml`
 
 ## CI/CD
 
-GitHub Actions automatically builds the PDF on push to main and creates releases. Secrets `RESUME_EMAIL` and `RESUME_PHONE` must be configured in the repository.
+GitHub Actions automatically builds the PDF on push to main and creates releases.
