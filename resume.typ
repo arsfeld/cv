@@ -24,6 +24,10 @@
   paper-size: "us-letter",
 )
 
+= Summary
+
+Software Architect and Engineering Leader with 12+ years building scalable systems and leading teams. Proven track record modernizing architectures and implementing DevOps practices across gaming, healthcare, and fintech.
+
 = Experience
 
 #resume-entry(
@@ -34,8 +38,8 @@
 )
 
 #resume-item[
-  - Re-architecting the product around a Service Hub concept using #strong("Kubernetes") and microservices
-  - Developing solutions using #strong(".NET") and #strong("Laravel") frameworks
+  - Implementing AI-powered features including #strong("MCP servers") and agentic architecture to enhance platform capabilities
+  - Designing scalable backend services with #strong(".NET") and #strong("Laravel"), establishing DevOps best practices
 ]
 
 #resume-entry(
@@ -46,10 +50,8 @@
 )
 
 #resume-item[
-  - Established and led a new DevOps team to centralize and improve deployment processes
-  - Implemented comprehensive observability and streamlined deployment pipelines using #strong("ArgoCD")
-  - Led the successful migration from #strong("Node.js") to #strong(".NET") for improved performance
-  - Orchestrated the transition of #strong("Kafka")-based systemd to cloud-native architecture while managing Stats and Leaderboards systems
+  - Established and led a 5-person DevOps team, implementing observability and deployment pipelines with #strong("ArgoCD") and #strong("Kubernetes")
+  - Led migration from #strong("Node.js") to #strong(".NET") and transitioned #strong("Kafka")-based systems to cloud-native architecture
 ]
 
 #resume-entry(
@@ -60,19 +62,8 @@
 )
 
 #resume-item[
-  - Implemented agile methodologies and established CI/CD pipelines using #strong("GitHub Actions")
-  - Developed full-stack solutions using #strong("Django")/#strong("Python") and #strong("React")
-]
-
-#resume-entry(
-  title: "Full-stack Consulting",
-  location: "Montreal, Canada",
-  date: "(Contract) July 2019 - December 2019",
-  description: "Zenika",
-)
-
-#resume-item[
-  - Developed an in-store mobile payment solution using #strong("Kotlin")/#strong("Android") and optimized e-commerce platform performance
+  - Implemented agile methodologies and established CI/CD pipelines using #strong("GitHub Actions"), reducing deployment friction
+  - Developed full-stack healthcare solutions using #strong("Django")/#strong("Python") and #strong("React") for regulatory compliance
 ]
 
 #resume-entry(
@@ -83,31 +74,20 @@
 )
 
 #resume-item[
-  - Managed two engineering teams and collaborated with Client Success
-  - Led the development and delivery of critical client features and fixes
-  - Established and led the scheduling team, recruiting and mentoring developers working with #strong("Python") and #strong("Vue")
+  - Managed two engineering teams (8+ developers), delivering critical client features and improving retention
+  - Established the scheduling team from scratch, recruiting and mentoring developers working with #strong("Python") and #strong("Vue")
 ]
 
 #resume-entry(
-  title: "Senior Consultant",
+  title: "Lead Developer → Senior Consultant",
   location: "Montreal, Canada",
-  date: "September 2015 - September 2017",
-  description: "Capgemini",
+  date: "October 2014 - September 2017",
+  description: "Mentel, Inc / Capgemini",
 )
 
 #resume-item[
-  - Developed full-stack solutions using #strong("Laravel 5") and #strong("AngularJS") with #strong("TypeScript") and #strong("Docker")
-]
-
-#resume-entry(
-  title: "Lead Developer",
-  location: "Montreal, Canada",
-  date: "October 2014 - September 2016",
-  description: "Mentel, Inc",
-)
-
-#resume-item[
-  - Led development of multiple projects including real estate platform and event websites
+  - Developed full-stack solutions using #strong("Laravel 5"), #strong("AngularJS"), #strong("TypeScript"), and #strong("Docker")
+  - Progressed from contractor (Mentel) to full-time consultant at Capgemini, delivering enterprise solutions
 ]
 
 #resume-entry(
@@ -118,7 +98,7 @@
 )
 
 #resume-item[
-  - Developed a new educational portal using #strong("PHP")/#strong("Symfony 2") and #strong("AngularJS"), leading a team to deliver over 10 educational games
+  - Developed an educational portal using #strong("PHP")/#strong("Symfony 2") and #strong("AngularJS"), leading a team to deliver 10+ educational games
 ]
 
 = Education
@@ -127,10 +107,30 @@
   title: "University of São Paulo, USP",
   location: "São Carlos, Brazil",
   date: "2006 - 2014",
-  description: "Computer Engineering",
+  description: "Bachelor of Computer Engineering",
 )
 
+#resume-item[
+  - International exchange program in Bolivia (1 year) focusing on software development and cultural immersion
+  - Active member of AIESEC (1 year), organizing international internship exchanges and developing leadership skills
+]
+
 = Skills
+
+#resume-skill-item(
+  "Languages",
+  (strong("C#"), strong("Python"), strong("TypeScript"), strong("PHP"), strong("Kotlin"), strong("Go")),
+)
+
+#resume-skill-item(
+  "Frameworks",
+  (strong(".NET"), strong("Django"), strong("Laravel"), strong("React"), strong("Vue"), strong("Node.js")),
+)
+
+#resume-skill-item(
+  "DevOps & Cloud",
+  (strong("Kubernetes"), strong("Docker"), strong("ArgoCD"), strong("GitHub Actions"), strong("AWS"), strong("Kafka")),
+)
 
 #resume-skill-item(
   "Spoken Languages",
