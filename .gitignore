@@ -27,5 +27,11 @@ Thumbs.db
 *.bak
 *.log
 
+# Generated job search page
+job-search.html
+
+# Job search output
+output/
+
 # Node.js (if you're using any Node.js tools)
 node_modules/
