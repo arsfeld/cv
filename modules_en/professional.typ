@@ -13,8 +13,8 @@
   date: [Dec 2024 - Present],
   location: [Montreal, Canada],
   description: list(
-    [Implementing AI-powered features including *MCP servers* and agentic architecture to enhance platform capabilities],
-    [Designing scalable backend services with *.NET* and *Laravel*, establishing DevOps best practices],
+    [Architecting and integrating *AI features* into production platforms, including agentic systems, *MCP servers*, and *RAG* pipelines],
+    [Designing scalable backend services and APIs with *.NET* and *Python*, establishing DevOps best practices],
   ),
 )
 
@@ -24,8 +24,8 @@
   date: [Nov 2020 - Dec 2024],
   location: [Montreal, Canada],
   description: list(
-    [Established and led a 5-person DevOps team, implementing observability and deployment pipelines with *ArgoCD* and *Kubernetes*],
-    [Led migration from *Node.js* to *.NET* and transitioned *Kafka*-based systems to cloud-native architecture],
+    [Built and operated real-time online services for a AAA mobile game, optimizing high-throughput backends for low-latency player experiences at scale],
+    [Established and led a 5-person team, implementing observability and deployment pipelines with *ArgoCD* and *Kubernetes* across *Kafka*-based, cloud-native infrastructure],
   ),
 )
 
