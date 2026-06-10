@@ -13,8 +13,8 @@
   date: [Dec 2024 - Present],
   location: [Montreal, Canada],
   description: list(
-    [Architecting and integrating *AI features* into production platforms, including agentic systems, *MCP servers*, and *RAG* pipelines],
-    [Designing scalable backend services and APIs with *.NET* and *Python*, establishing DevOps best practices],
+    [Architecting and integrating *AI features* into production: agentic systems, *MCP servers*, and *RAG* pipelines],
+    [Designing scalable backend services and APIs with *.NET* and *Python*],
   ),
 )
 
@@ -24,8 +24,8 @@
   date: [Nov 2020 - Dec 2024],
   location: [Montreal, Canada],
   description: list(
-    [Built and operated real-time online services for a AAA mobile game, optimizing high-throughput backends for low-latency player experiences at scale],
-    [Established and led a 5-person team, implementing observability and deployment pipelines with *ArgoCD* and *Kubernetes* across *Kafka*-based, cloud-native infrastructure],
+    [Built and operated *real-time online services* for a AAA mobile game, optimizing high-throughput backends for low latency at scale],
+    [Established and led a 5-person team building *Kubernetes*-based deployment and observability pipelines],
   ),
 )
 
@@ -35,7 +35,7 @@
   date: [Dec 2019 - Nov 2020],
   location: [Montreal, Canada],
   description: list(
-    [Led development of an *AI/NLP-driven adverse-media screening platform* for due diligence and compliance (AML/KYC), built with *Django*, *Python*, and *React*],
+    [Led development of an *ML-driven screening platform for compliance*, built with *Django*, *Python*, and *React*],
     [Implemented agile practices and established CI/CD pipelines with *GitHub Actions*, reducing deployment friction],
   ),
 )
