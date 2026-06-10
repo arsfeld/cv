@@ -29,7 +29,7 @@ language = "en"
 [inject]
     inject_ai_prompt = false
     inject_keywords = true
-    injected_keywords_list = ["Software Architect", "Kubernetes", ".NET", "Python", "DevOps", "Team Lead"]
+    injected_keywords_list = ["Software Architect", "Python", "AI", "Distributed Systems", "Game Services", "Team Lead"]
 
 [personal]
     first_name = "Alexandre"
@@ -43,6 +43,6 @@ language = "en"
         homepage = "arsfeld.dev"
 
 [lang.en]
-    header_quote = "Software Architect and Engineering Leader with 12+ years building scalable systems and leading teams"
+    header_quote = "Software Architect and Engineering Leader with 12+ years building scalable systems, AI integrations, and game online services"
     cv_footer = "Curriculum vitae"
     letter_footer = "Cover letter"

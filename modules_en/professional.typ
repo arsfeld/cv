@@ -13,8 +13,8 @@
   date: [Dec 2024 - Present],
   location: [Montreal, Canada],
   description: list(
-    [Implementing AI-powered features including *MCP servers* and agentic architecture to enhance platform capabilities],
-    [Designing scalable backend services with *.NET* and *Laravel*, establishing DevOps best practices],
+    [Architecting and integrating *AI features* into production: agentic systems, *MCP servers*, and *RAG* pipelines],
+    [Designing scalable backend services and APIs with *.NET* and *Python*],
   ),
 )
 
@@ -24,8 +24,8 @@
   date: [Nov 2020 - Dec 2024],
   location: [Montreal, Canada],
   description: list(
-    [Established and led a 5-person DevOps team, implementing observability and deployment pipelines with *ArgoCD* and *Kubernetes*],
-    [Led migration from *Node.js* to *.NET* and transitioned *Kafka*-based systems to cloud-native architecture],
+    [Built and operated *real-time online services* for a AAA mobile game, optimizing high-throughput backends for low latency at scale],
+    [Established and led a 5-person team building *Kubernetes*-based deployment and observability pipelines],
   ),
 )
 
@@ -35,8 +35,8 @@
   date: [Dec 2019 - Nov 2020],
   location: [Montreal, Canada],
   description: list(
-    [Implemented agile methodologies and established CI/CD pipelines using *GitHub Actions*, reducing deployment friction],
-    [Developed full-stack healthcare solutions using *Django* and *Python* with *React* for regulatory compliance],
+    [Led development of an *ML-driven screening platform for compliance*, built with *Django*, *Python*, and *React*],
+    [Implemented agile practices and established CI/CD pipelines with *GitHub Actions*, reducing deployment friction],
   ),
 )
 
@@ -69,5 +69,15 @@
   location: [São Carlos, Brazil],
   description: list(
     [Developed an educational portal using *PHP* and *Symfony 2* with *AngularJS*, leading a team to deliver 10+ games],
+  ),
+)
+
+#cvEntry(
+  title: [Open Source Developer | Google Summer of Code],
+  society: [GNOME Foundation],
+  date: [2008 - 2010],
+  location: [Remote],
+  description: list(
+    [Selected three consecutive years to contribute to the GNOME desktop, building data-synchronization features for *Conduit* (*Python*) and implementing *DACP* remote-control support in *Rhythmbox* (*C*)],
   ),
 )

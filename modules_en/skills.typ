@@ -8,7 +8,12 @@
 
 #cvSkill(
   type: [Languages],
-  info: [C\# #hBar() Python #hBar() TypeScript #hBar() PHP #hBar() Kotlin #hBar() Go],
+  info: [Python #hBar() Go #hBar() C\# #hBar() TypeScript #hBar() Kotlin #hBar() PHP],
+)
+
+#cvSkill(
+  type: [AI & ML],
+  info: [LLMs #hBar() Agentic Systems #hBar() MCP #hBar() RAG #hBar() Model Integration],
 )
 
 #cvSkill(
