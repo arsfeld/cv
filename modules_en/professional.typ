@@ -71,3 +71,13 @@
     [Developed an educational portal using *PHP* and *Symfony 2* with *AngularJS*, leading a team to deliver 10+ games],
   ),
 )
+
+#cvEntry(
+  title: [Open Source Developer | Google Summer of Code],
+  society: [GNOME Foundation],
+  date: [2008 - 2010],
+  location: [Remote],
+  description: list(
+    [Selected three consecutive years to contribute to the GNOME desktop, building data-synchronization features for *Conduit* (*Python*) and implementing *DACP* remote-control support in *Rhythmbox* (*C*)],
+  ),
+)
