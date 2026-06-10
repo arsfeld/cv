@@ -35,8 +35,8 @@
   date: [Dec 2019 - Nov 2020],
   location: [Montreal, Canada],
   description: list(
-    [Implemented agile methodologies and established CI/CD pipelines using *GitHub Actions*, reducing deployment friction],
-    [Developed full-stack healthcare solutions using *Django* and *Python* with *React* for regulatory compliance],
+    [Led development of an *AI/NLP-driven adverse-media screening platform* for due diligence and compliance (AML/KYC), built with *Django*, *Python*, and *React*],
+    [Implemented agile practices and established CI/CD pipelines with *GitHub Actions*, reducing deployment friction],
   ),
 )
 
