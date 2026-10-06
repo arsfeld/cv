@@ -23,7 +23,7 @@
 #cvEntry(
   title: [Programming & DevOps Team Lead],
   society: [Ubisoft (Online Services & Rainbow Six Mobile)],
-  date: [Nov 2020 - Dec 2024],
+  date: [Nov 2020 - Nov 2024],
   location: [Montreal, Canada],
   description: list(
     [Rebuilt the game-stats pipeline ingesting *tens of thousands of events/sec*, replacing on-prem *Kafka* and *JavaScript Lambdas* (*DynamoDB*) with a horizontally scalable *.NET* container service; weekly hours-long incidents dropped to *zero* and all physical hardware was retired],
