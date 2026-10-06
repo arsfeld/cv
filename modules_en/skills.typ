@@ -8,22 +8,17 @@
 
 #cvSkill(
   type: [Languages],
-  info: [Python #hBar() Go #hBar() C\# #hBar() TypeScript #hBar() Kotlin #hBar() PHP],
+  info: [Python (FastAPI, Django, asyncio) #hBar() C\# (.NET) #hBar() TypeScript (React, Vue, Node.js) #hBar() PHP (Laravel)],
 )
 
 #cvSkill(
-  type: [AI & ML],
-  info: [LLMs #hBar() Agentic Systems #hBar() MCP #hBar() RAG #hBar() Model Integration],
+  type: [AI & LLMs],
+  info: [Agent Platforms #hBar() MCP #hBar() Tool Use #hBar() Anthropic Claude #hBar() Google Gemini #hBar() LLM Evals (Langfuse) #hBar() RAG],
 )
 
 #cvSkill(
-  type: [Frameworks],
-  info: [.NET #hBar() Django #hBar() Laravel #hBar() React #hBar() Vue #hBar() Node.js],
-)
-
-#cvSkill(
-  type: [DevOps & Cloud],
-  info: [Kubernetes #hBar() Docker #hBar() ArgoCD #hBar() GitHub Actions #hBar() AWS #hBar() Kafka],
+  type: [Data & Infra],
+  info: [PostgreSQL #hBar() Redis #hBar() Kafka #hBar() Kubernetes #hBar() ArgoCD #hBar() AWS #hBar() OpenTelemetry #hBar() Prometheus],
 )
 
 #cvSkill(

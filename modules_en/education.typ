@@ -13,7 +13,6 @@
   date: [2006 - 2014],
   location: [São Carlos, Brazil],
   description: list(
-    [International exchange program in Bolivia (1 year) focusing on software development and cultural immersion],
-    [Active member of AIESEC (1 year), organizing international internship exchanges and developing leadership skills],
+    [One-year exchange program in Bolivia; AIESEC member organizing international internship exchanges],
   ),
 )

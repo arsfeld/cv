@@ -10,22 +10,26 @@
 #cvEntry(
   title: [Senior Software Architect],
   society: [ACCESS Newswire],
-  date: [Dec 2024 - Present],
+  date: [Dec 2024 - Oct 2026],
   location: [Montreal, Canada],
   description: list(
-    [Architecting and integrating *AI features* into production: agentic systems, *MCP servers*, and *RAG* pipelines],
-    [Designing scalable backend services and APIs with *.NET* and *Python*],
+    [Designed and built, with one other developer, the company's *AI agent platform* in async *Python* (*FastAPI*, *PostgreSQL*, *Redis*): agent registry with per-agent permissions, tools, and *MCP servers*; *20–30 agents* in production on *Claude* and *Gemini*],
+    [Instrumented agent runs with *Langfuse* evals and *OpenTelemetry* tracing to catch regressions and failures in production],
+    [Wired agents into the core product through extension points, powering a *paid AI insights and analytics report* (\$200–300 per report) and letting non-developers ship new agents without code],
+    [Built a *.NET* news-ingestion service (*thousands of articles/day*) and public agents that generated personalized AI reports for \~100 conference attendees],
   ),
 )
 
 #cvEntry(
   title: [Programming & DevOps Team Lead],
-  society: [Ubisoft (Rainbow Six Mobile & Online Services)],
+  society: [Ubisoft (Online Services & Rainbow Six Mobile)],
   date: [Nov 2020 - Dec 2024],
   location: [Montreal, Canada],
   description: list(
-    [Built and operated *real-time online services* for a AAA mobile game, optimizing high-throughput backends for low latency at scale],
-    [Established and led a 5-person team building *Kubernetes*-based deployment and observability pipelines],
+    [Rebuilt the game-stats pipeline ingesting *tens of thousands of events/sec*, replacing on-prem *Kafka* and *JavaScript Lambdas* (*DynamoDB*) with a horizontally scalable *.NET* container service; weekly hours-long incidents dropped to *zero* and all physical hardware was retired],
+    [Built load tests simulating *hundreds of thousands of CCU* across several continents, including live mocks of services that changed every week],
+    [Root-caused a soft-launch performance crisis with *Unity*: game servers sized thread pools from the physical host's CPU count instead of the *container CPU limit*],
+    [Owned microservice deployment tooling on *Kubernetes*, started the move to *ArgoCD*, and guided service teams on *Prometheus/Grafana* instrumentation; team of 5],
   ),
 )
 
@@ -35,19 +39,17 @@
   date: [Dec 2019 - Nov 2020],
   location: [Montreal, Canada],
   description: list(
-    [Led development of an *ML-driven screening platform for compliance*, built with *Django*, *Python*, and *React*],
-    [Implemented agile practices and established CI/CD pipelines with *GitHub Actions*, reducing deployment friction],
+    [One of two engineers building an *ML compliance-screening platform* (*Django*, *Python*, *React*); productionized the data-science team's *ML pipeline* and built *CI/CD* with *GitHub Actions*],
   ),
 )
 
 #cvEntry(
-  title: [Engineering Manager / Team Lead],
+  title: [Scheduling Team Lead → Director of Engineering Support],
   society: [AlayaCare],
   date: [Sep 2017 - Aug 2019],
   location: [Montreal, Canada],
   description: list(
-    [Managed two engineering teams (8+ developers), delivering critical client features and improving retention],
-    [Established the scheduling team from scratch, recruiting and mentoring developers working with *Python* and *Vue*],
+    [Customer-escalation engineering for a home-care SaaS platform (*Python*, *Vue*): \~50 tickets/week triaged, *20–30 fixes shipped every sprint*; sped up QA and releases so fixes joined the regular release train],
   ),
 )
 
@@ -57,27 +59,14 @@
   date: [Oct 2014 - Sep 2017],
   location: [Montreal, Canada],
   description: list(
-    [Developed full-stack solutions using *Laravel 5*, *AngularJS*, *TypeScript*, and *Docker*],
-    [Progressed from contractor (Mentel) to full-time consultant at Capgemini, delivering enterprise solutions],
+    [Built full-stack apps for many clients (*Laravel*, *AngularJS*, *TypeScript*); ran a production *Rancher* cluster on early *Docker*],
   ),
 )
 
 #cvEntry(
-  title: [Coordinator of Education Games | Web & Mobile Developer],
-  society: [Aptor Software, LTDA],
-  date: [Jan 2013 - Sep 2014],
-  location: [São Carlos, Brazil],
-  description: list(
-    [Developed an educational portal using *PHP* and *Symfony 2* with *AngularJS*, leading a team to deliver 10+ games],
-  ),
-)
-
-#cvEntry(
-  title: [Open Source Developer | Google Summer of Code],
+  title: [Open Source Developer | Google Summer of Code (3 consecutive years)],
+  description: [],
   society: [GNOME Foundation],
   date: [2008 - 2010],
   location: [Remote],
-  description: list(
-    [Selected three consecutive years to contribute to the GNOME desktop, building data-synchronization features for *Conduit* (*Python*) and implementing *DACP* remote-control support in *Rhythmbox* (*C*)],
-  ),
 )
